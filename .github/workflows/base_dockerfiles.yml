@@ -9,9 +9,6 @@ on:
       - 'docker/imageflow_build_ubuntu16/Dockerfile'
       - 'docker/imageflow_build_ubuntu18/Dockerfile'
       - 'docker/imageflow_build_ubuntu18_debug/Dockerfile'
-  schedule:
-    # Also build on the first and sixteenth of every month
-    - cron: '0 0 1,16 * *'
 
 jobs:
   base_os:
